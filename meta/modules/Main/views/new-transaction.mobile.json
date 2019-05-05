@@ -1,0 +1,426 @@
+{
+    "actionBar": true,
+    "actionBarTitle": "",
+    "annotations": {
+        "dataSources": {
+            "name": "dataSourceName"
+        }
+    },
+    "authorization": {
+        "allowedRoles": []
+    },
+    "children": [
+        {
+            "absoluteLayout": {},
+            "appearanceStyles": {
+                "backgroundColor": null,
+                "color": null
+            },
+            "autoGenerate": "",
+            "boxStyles": {
+                "margin": "",
+                "padding": "",
+                "size": {
+                    "height": "",
+                    "width": ""
+                }
+            },
+            "children": [
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "children": [
+                        {
+                            "absoluteLayout": {},
+                            "appearanceStyles": {
+                                "backgroundColor": null,
+                                "color": null
+                            },
+                            "boxStyles": {
+                                "margin": "",
+                                "padding": "",
+                                "size": {
+                                    "height": "",
+                                    "width": ""
+                                }
+                            },
+                            "classList": "",
+                            "dockLayout": {},
+                            "flexboxLayout": {
+                                "alignSelf": "stretch",
+                                "flexWrapBefore": false
+                            },
+                            "gridLayout": {
+                                "col": null,
+                                "colSpan": null,
+                                "row": null,
+                                "rowSpan": null
+                            },
+                            "id": "mobilelabel0",
+                            "platform": "mobile",
+                            "schemaVersion": "1.0",
+                            "text": "Type",
+                            "textWrap": true,
+                            "type": "mobile-label",
+                            "uniqueID": "ab79ca0d-078e-4317-bd5d-6ee0be4aaeff"
+                        },
+                        {
+                            "absoluteLayout": {},
+                            "appearanceStyles": {
+                                "backgroundColor": null,
+                                "color": null
+                            },
+                            "autocorrect": false,
+                            "boxStyles": {
+                                "margin": "",
+                                "padding": "",
+                                "size": {
+                                    "height": "",
+                                    "width": ""
+                                }
+                            },
+                            "classList": "",
+                            "dockLayout": {},
+                            "documentDataSource": "transaction",
+                            "flexboxLayout": {
+                                "alignSelf": "stretch",
+                                "flexWrapBefore": false
+                            },
+                            "formControlName": "type",
+                            "gridLayout": {},
+                            "hint": "",
+                            "id": "mobiletextfield0",
+                            "keyboardType": "",
+                            "platform": "mobile",
+                            "schemaVersion": "1.0",
+                            "secure": false,
+                            "text": "",
+                            "type": "mobile-text-field",
+                            "uniqueID": "28aa9916-5721-4a5e-b425-5da39f9f9330"
+                        },
+                        {
+                            "absoluteLayout": {},
+                            "appearanceStyles": {
+                                "backgroundColor": null,
+                                "color": null
+                            },
+                            "boxStyles": {
+                                "margin": "",
+                                "padding": "",
+                                "size": {
+                                    "height": "",
+                                    "width": ""
+                                }
+                            },
+                            "classList": "",
+                            "dockLayout": {},
+                            "flexboxLayout": {
+                                "alignSelf": "stretch",
+                                "flexWrapBefore": false
+                            },
+                            "gridLayout": {
+                                "col": null,
+                                "colSpan": null,
+                                "row": null,
+                                "rowSpan": null
+                            },
+                            "id": "mobilelabel1",
+                            "platform": "mobile",
+                            "schemaVersion": "1.0",
+                            "text": "Amount",
+                            "textWrap": true,
+                            "type": "mobile-label",
+                            "uniqueID": "7d546f3b-c6f0-43ca-b4ef-bfd4e35519bf"
+                        },
+                        {
+                            "absoluteLayout": {},
+                            "appearanceStyles": {
+                                "backgroundColor": null,
+                                "color": null
+                            },
+                            "autocorrect": false,
+                            "boxStyles": {
+                                "margin": "",
+                                "padding": "",
+                                "size": {
+                                    "height": "",
+                                    "width": ""
+                                }
+                            },
+                            "classList": "",
+                            "dockLayout": {},
+                            "documentDataSource": "transaction",
+                            "flexboxLayout": {
+                                "alignSelf": "stretch",
+                                "flexWrapBefore": false
+                            },
+                            "formControlName": "amount",
+                            "gridLayout": {
+                                "col": null,
+                                "colSpan": null,
+                                "row": null,
+                                "rowSpan": null
+                            },
+                            "hint": "",
+                            "id": "mobiletextfield1",
+                            "keyboardType": "number",
+                            "platform": "mobile",
+                            "schemaVersion": "1.0",
+                            "secure": false,
+                            "text": "",
+                            "type": "mobile-text-field",
+                            "uniqueID": "8209e932-83b5-4537-a637-3be50785f665"
+                        },
+                        {
+                            "absoluteLayout": {},
+                            "appearanceStyles": {
+                                "backgroundColor": null,
+                                "color": null
+                            },
+                            "boxStyles": {
+                                "margin": "",
+                                "padding": "",
+                                "size": {
+                                    "height": "",
+                                    "width": ""
+                                }
+                            },
+                            "classList": "",
+                            "dockLayout": {},
+                            "flexboxLayout": {
+                                "alignSelf": "stretch",
+                                "flexWrapBefore": false
+                            },
+                            "gridLayout": {},
+                            "id": "mobilelabel2",
+                            "platform": "mobile",
+                            "schemaVersion": "1.0",
+                            "text": "AccountId",
+                            "textWrap": true,
+                            "type": "mobile-label",
+                            "uniqueID": "5d8af55e-c63e-47f6-889f-b01c3f5e6df1"
+                        },
+                        {
+                            "absoluteLayout": {},
+                            "appearanceStyles": {
+                                "backgroundColor": null,
+                                "color": null
+                            },
+                            "autocorrect": false,
+                            "boxStyles": {
+                                "margin": "",
+                                "padding": "",
+                                "size": {
+                                    "height": "",
+                                    "width": ""
+                                }
+                            },
+                            "classList": "",
+                            "dockLayout": {},
+                            "documentDataSource": "transaction",
+                            "flexboxLayout": {
+                                "alignSelf": "stretch",
+                                "flexWrapBefore": false
+                            },
+                            "formControlName": "accountId",
+                            "gridLayout": {},
+                            "hint": "",
+                            "id": "mobiletextfield2",
+                            "keyboardType": "",
+                            "platform": "mobile",
+                            "schemaVersion": "1.0",
+                            "secure": false,
+                            "text": "",
+                            "type": "mobile-text-field",
+                            "uniqueID": "3f9f2955-62a0-4840-a416-4110c490ff59"
+                        },
+                        {
+                            "absoluteLayout": {},
+                            "appearanceStyles": {
+                                "backgroundColor": null,
+                                "color": null
+                            },
+                            "boxStyles": {
+                                "margin": "",
+                                "padding": "",
+                                "size": {
+                                    "height": "",
+                                    "width": ""
+                                }
+                            },
+                            "children": [
+                                {
+                                    "absoluteLayout": {},
+                                    "appearanceStyles": {
+                                        "backgroundColor": null,
+                                        "color": null
+                                    },
+                                    "boxStyles": {
+                                        "margin": "",
+                                        "padding": "",
+                                        "size": {
+                                            "height": "",
+                                            "width": ""
+                                        }
+                                    },
+                                    "buttonType": "Submit",
+                                    "classList": "-primary",
+                                    "dockLayout": {},
+                                    "documentDataSource": "",
+                                    "flexboxLayout": {
+                                        "alignSelf": "stretch",
+                                        "flexWrapBefore": false
+                                    },
+                                    "formControlName": "",
+                                    "gridLayout": {
+                                        "col": null,
+                                        "colSpan": null,
+                                        "row": null,
+                                        "rowSpan": null
+                                    },
+                                    "id": "mobileformbutton0",
+                                    "platform": "mobile",
+                                    "schemaVersion": "1.0",
+                                    "text": "Submit",
+                                    "type": "mobile-form-button",
+                                    "uniqueID": "402778c6-89f7-429b-bf17-810c932b6f67"
+                                },
+                                {
+                                    "absoluteLayout": {},
+                                    "appearanceStyles": {
+                                        "backgroundColor": null,
+                                        "color": null
+                                    },
+                                    "boxStyles": {
+                                        "margin": "",
+                                        "padding": "",
+                                        "size": {
+                                            "height": "",
+                                            "width": ""
+                                        }
+                                    },
+                                    "buttonType": "Cancel",
+                                    "classList": "",
+                                    "dockLayout": {},
+                                    "documentDataSource": "",
+                                    "flexboxLayout": {
+                                        "alignSelf": "stretch",
+                                        "flexWrapBefore": false
+                                    },
+                                    "formControlName": "",
+                                    "gridLayout": {
+                                        "col": null,
+                                        "colSpan": null,
+                                        "row": null,
+                                        "rowSpan": null
+                                    },
+                                    "id": "mobileformbutton1",
+                                    "platform": "mobile",
+                                    "schemaVersion": "1.0",
+                                    "text": "Cancel",
+                                    "type": "mobile-form-button",
+                                    "uniqueID": "3663890d-5594-4474-908a-ce0177a5e69d"
+                                }
+                            ],
+                            "classList": "form__footer",
+                            "dockLayout": {},
+                            "flexboxLayout": {
+                                "alignSelf": "stretch",
+                                "flexWrapBefore": false
+                            },
+                            "gridLayout": {},
+                            "id": "mobilestacklayout1",
+                            "orientation": "Horizontal",
+                            "platform": "mobile",
+                            "schemaVersion": "1.0",
+                            "type": "mobile-stack-layout",
+                            "uniqueID": "38907da5-6ef0-4dfa-bc9c-6767db42f2f6"
+                        }
+                    ],
+                    "classList": "form",
+                    "dockLayout": {},
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {},
+                    "id": "mobilestacklayout0",
+                    "orientation": "Vertical",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "type": "mobile-stack-layout",
+                    "uniqueID": "5a9b6edb-6c94-4ada-9e4b-bcfdc12895c8"
+                }
+            ],
+            "classList": "",
+            "customCancel": {},
+            "customSubmit": {},
+            "dockLayout": {},
+            "documentDataSource": "transaction",
+            "flexboxLayout": {
+                "alignSelf": "stretch",
+                "flexWrapBefore": false
+            },
+            "gridLayout": {},
+            "id": "mobileform0",
+            "platform": "mobile",
+            "schemaVersion": "1.0",
+            "submitEventsAfter": "backward",
+            "submitEventsAfterCustom": {},
+            "submitEventsAfterForward": {
+                "module": "",
+                "view": ""
+            },
+            "submitEventsBefore": "default",
+            "submitEventsBeforeCustom": {},
+            "submitEventsSave": "default",
+            "submitEventsSaveCustom": {},
+            "type": "mobile-form",
+            "uniqueID": "742cc553-2f63-4feb-9f5c-0cfced431491",
+            "useDefaultCancel": true,
+            "useDefaultSubmit": true
+        }
+    ],
+    "dataSources": [
+        {
+            "batch": true,
+            "dataProviderName": "DefaultDataProvider",
+            "dataSourceName": "transactions",
+            "dataSourceType": "entity",
+            "filterDataSource": false,
+            "foreignKeyProperty": "",
+            "name": "transaction",
+            "pageSize": 20,
+            "primaryKeyDocumentDataSource": "",
+            "primaryKeyProperty": "",
+            "uniqueID": "516e4437-40e6-4317-a152-3c2169b19bd2"
+        }
+    ],
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "showEventHandler": "onShow"
+    },
+    "hidden": false,
+    "name": "new-transaction",
+    "platform": "mobile",
+    "schemaVersion": "1.0",
+    "swipeLeft": {
+        "allowBackNavigation": true
+    },
+    "swipeRight": true,
+    "type": "view",
+    "uniqueID": "20a4efac-22dc-4616-b91f-0da555a72924",
+    "viewType": "mobile-blank"
+}

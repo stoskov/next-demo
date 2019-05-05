@@ -1,0 +1,30 @@
+{
+    "actionBar": true,
+    "actionBarTitle": "Schedule an Appointment",
+    "annotations": {
+        "dataSources": {
+            "name": "dataSourceName"
+        }
+    },
+    "authorization": {
+        "allowedRoles": []
+    },
+    "children": [],
+    "dataSources": [],
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "showEventHandler": "onShow"
+    },
+    "hidden": false,
+    "name": "new-appointment",
+    "platform": "mobile",
+    "schemaVersion": "1.0",
+    "swipeLeft": {
+        "allowBackNavigation": true
+    },
+    "swipeRight": true,
+    "type": "view",
+    "uniqueID": "8036e82a-d43d-40e8-a1e4-522418de3359",
+    "viewType": "mobile-blank"
+}

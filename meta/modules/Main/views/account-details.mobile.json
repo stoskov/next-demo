@@ -1,0 +1,292 @@
+{
+    "actionBar": true,
+    "actionBarTitle": "Account Details",
+    "annotations": {
+        "dataSources": {
+            "name": "dataSourceName"
+        }
+    },
+    "authorization": {
+        "allowedRoles": []
+    },
+    "children": [
+        {
+            "absoluteLayout": {},
+            "appearanceStyles": {
+                "backgroundColor": null,
+                "color": null
+            },
+            "boxStyles": {
+                "margin": "",
+                "padding": "",
+                "size": {
+                    "height": "",
+                    "width": ""
+                }
+            },
+            "children": [
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {},
+                    "id": "mobilelabel0",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "text": "Account",
+                    "textWrap": true,
+                    "type": "mobile-label",
+                    "uniqueID": "1d0991eb-4e1d-4112-80be-a710e851752e"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {
+                        "col": null,
+                        "colSpan": null,
+                        "row": null,
+                        "rowSpan": null
+                    },
+                    "id": "mobilehorizontalline0",
+                    "lineType": "dark",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "type": "mobile-horizontal-line",
+                    "uniqueID": "e4683a81-83a1-485a-8c13-5ac99a8da520"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {},
+                    "id": "mobilelabel1",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "text": "Name: {{$data.accoiunt?.name}} ",
+                    "textWrap": true,
+                    "type": "mobile-label",
+                    "uniqueID": "c2c21161-8e18-48cd-ba75-b5a6b0ab9e75"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {},
+                    "id": "mobilelabel2",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "text": "Balance: {{$data.accoiunt?.balance}} ",
+                    "textWrap": true,
+                    "type": "mobile-label",
+                    "uniqueID": "6ca02358-40ab-49a1-b982-ced55c7917c6"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {},
+                    "id": "mobilelabel3",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "text": "Latest transactions",
+                    "textWrap": true,
+                    "type": "mobile-label",
+                    "uniqueID": "77ea061f-1e44-45c1-9e12-14c98adf3505"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {
+                        "col": null,
+                        "colSpan": null,
+                        "row": null,
+                        "rowSpan": null
+                    },
+                    "id": "mobilehorizontalline1",
+                    "lineType": "dark",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "type": "mobile-horizontal-line",
+                    "uniqueID": "7fa0371f-8a88-4e3e-a23d-d105135f310c"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "events": {
+                        "onClick": ""
+                    },
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {},
+                    "id": "mobilebutton0",
+                    "navigateTo": {
+                        "allowBackNavigation": false,
+                        "parameter": ""
+                    },
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "text": "New Transaction",
+                    "type": "mobile-button",
+                    "uniqueID": "d9f6fa52-d091-41a3-b4e5-f02c1c79f40f"
+                }
+            ],
+            "classList": "",
+            "dockLayout": {},
+            "flexboxLayout": {
+                "alignSelf": "stretch",
+                "flexWrapBefore": false
+            },
+            "gridLayout": {},
+            "id": "mobilestacklayout0",
+            "orientation": "Vertical",
+            "platform": "mobile",
+            "schemaVersion": "1.0",
+            "type": "mobile-stack-layout",
+            "uniqueID": "24b41d4b-8087-4504-9ff1-7ab2cb33aca7"
+        }
+    ],
+    "dataSources": [
+        {
+            "batch": true,
+            "dataProviderName": "DefaultDataProvider",
+            "dataSourceName": "accounts",
+            "dataSourceType": "entity",
+            "filterDataSource": false,
+            "foreignKeyProperty": "",
+            "name": "accoiunt",
+            "pageSize": 20,
+            "primaryKeyDocumentDataSource": "",
+            "primaryKeyProperty": "",
+            "uniqueID": "d22bf79a-2036-435d-97fb-b62cf2775b49"
+        }
+    ],
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "showEventHandler": "onShow"
+    },
+    "hidden": false,
+    "name": "account-details",
+    "platform": "mobile",
+    "schemaVersion": "1.0",
+    "swipeLeft": {
+        "allowBackNavigation": true
+    },
+    "swipeRight": true,
+    "type": "view",
+    "uniqueID": "fe830aaf-5779-4187-86fa-e867d3dc420c",
+    "viewType": "mobile-blank"
+}

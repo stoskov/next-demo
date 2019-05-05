@@ -1,0 +1,77 @@
+{
+    "actionBar": true,
+    "actionBarTitle": "Accounts",
+    "annotations": {
+        "dataSources": {
+            "name": "dataSourceName"
+        }
+    },
+    "authorization": {
+        "allowedRoles": []
+    },
+    "children": [
+        {
+            "absoluteLayout": {},
+            "appearanceStyles": {
+                "backgroundColor": null,
+                "color": null
+            },
+            "boxStyles": {
+                "margin": "",
+                "padding": "",
+                "size": {
+                    "height": "",
+                    "width": ""
+                }
+            },
+            "children": [],
+            "classList": "",
+            "dockLayout": {},
+            "flexboxLayout": {
+                "alignSelf": "stretch",
+                "flexWrapBefore": false
+            },
+            "gridConfig": {
+                "columns": "*",
+                "rows": "*"
+            },
+            "gridLayout": {},
+            "id": "mobilegridlayout0",
+            "platform": "mobile",
+            "schemaVersion": "1.0",
+            "type": "mobile-grid-layout",
+            "uniqueID": "0a2e78e8-8265-4a6e-a9b3-fc654e2e8b60"
+        }
+    ],
+    "dataSources": [
+        {
+            "batch": true,
+            "dataProviderName": "DefaultDataProvider",
+            "dataSourceName": "accounts",
+            "dataSourceType": "collection",
+            "filterDataSource": false,
+            "foreignKeyProperty": "",
+            "name": "accounts",
+            "pageSize": 20,
+            "primaryKeyDocumentDataSource": "",
+            "primaryKeyProperty": "",
+            "uniqueID": "5385903d-a3c5-47f0-82ec-b39897204473"
+        }
+    ],
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "showEventHandler": "onShow"
+    },
+    "hidden": false,
+    "name": "accounts",
+    "platform": "mobile",
+    "schemaVersion": "1.0",
+    "swipeLeft": {
+        "allowBackNavigation": true
+    },
+    "swipeRight": true,
+    "type": "view",
+    "uniqueID": "48ebd592-6bab-4833-a44f-12292883b0e8",
+    "viewType": "mobile-blank"
+}

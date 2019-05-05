@@ -1,0 +1,52 @@
+{
+    "authorization": {
+        "roles": []
+    },
+    "build": {
+        "debug": {
+            "baseHref": "/"
+        },
+        "release": {
+            "aot": true,
+            "baseHref": "/"
+        }
+    },
+    "children": [],
+    "defaultLangaugeCulture": "en-US",
+    "defaultLanguageLabel": "English",
+    "description": "",
+    "layout": {},
+    "mobileNavigation": [
+        {
+            "type": "drawer",
+            "displayName": "accounts",
+            "module": "Main",
+            "view": "accounts"
+        },
+        {
+            "type": "drawer",
+            "displayName": "appointments",
+            "module": "Main",
+            "view": "appointments"
+        }
+    ],
+    "mobileOfflineSupport": false,
+    "mobileTheme": "light",
+    "name": "NextDemo",
+    "ripple": false,
+    "schemaVersion": "1.1.0",
+    "startupViewInfo": {},
+    "targetFramework": "Angular",
+    "theme": "metro",
+    "type": "app",
+    "uniqueID": "fd28289d-994a-46cd-985c-17331f5b71dd",
+    "webNavigation": [
+        {
+            "name": "landing-page",
+            "type": "view",
+            "uniqueID": "3449942b-c975-49ac-9ed0-23d4d825004b",
+            "moduleName": "System"
+        }
+    ],
+    "webOfflineSupport": false
+}

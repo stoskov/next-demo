@@ -1,0 +1,199 @@
+{
+    "actionBar": true,
+    "actionBarTitle": "Dashboard",
+    "annotations": {
+        "dataSources": {
+            "name": "dataSourceName"
+        }
+    },
+    "authorization": {
+        "allowedRoles": []
+    },
+    "children": [
+        {
+            "absoluteLayout": {},
+            "appearanceStyles": {
+                "backgroundColor": null,
+                "color": null
+            },
+            "boxStyles": {
+                "margin": "",
+                "padding": "",
+                "size": {
+                    "height": "",
+                    "width": ""
+                }
+            },
+            "children": [
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "children": [
+                        {
+                            "absoluteLayout": {},
+                            "appearanceStyles": {
+                                "backgroundColor": null,
+                                "color": null
+                            },
+                            "boxStyles": {
+                                "margin": "",
+                                "padding": "",
+                                "size": {
+                                    "height": "",
+                                    "width": ""
+                                }
+                            },
+                            "classList": "h2 -center",
+                            "dockLayout": {},
+                            "flexboxLayout": {
+                                "alignSelf": "stretch",
+                                "flexWrapBefore": false
+                            },
+                            "gridLayout": {},
+                            "id": "mobilelabel0",
+                            "platform": "mobile",
+                            "schemaVersion": "1.0",
+                            "text": "Welcome to Kinvey Studio!",
+                            "textWrap": true,
+                            "type": "mobile-label",
+                            "uniqueID": "f86bd826-69cd-45ff-b517-3a024998747a"
+                        },
+                        {
+                            "absoluteLayout": {},
+                            "appearanceStyles": {
+                                "backgroundColor": null,
+                                "color": null
+                            },
+                            "boxStyles": {
+                                "margin": "",
+                                "padding": "",
+                                "size": {
+                                    "height": "",
+                                    "width": ""
+                                }
+                            },
+                            "classList": "",
+                            "dockLayout": {},
+                            "events": {
+                                "onClick": ""
+                            },
+                            "flexboxLayout": {
+                                "alignSelf": "stretch",
+                                "flexWrapBefore": false
+                            },
+                            "gridLayout": {},
+                            "id": "mobilebutton0",
+                            "navigateTo": {
+                                "allowBackNavigation": false,
+                                "module": "main",
+                                "parameter": "",
+                                "view": "accounts"
+                            },
+                            "platform": "mobile",
+                            "schemaVersion": "1.0",
+                            "text": "Accounts",
+                            "type": "mobile-button",
+                            "uniqueID": "f02fdddd-1db0-442f-94fc-5a6d6eaff9c4"
+                        },
+                        {
+                            "absoluteLayout": {},
+                            "appearanceStyles": {
+                                "backgroundColor": null,
+                                "color": null
+                            },
+                            "boxStyles": {
+                                "margin": "",
+                                "padding": "",
+                                "size": {
+                                    "height": "",
+                                    "width": ""
+                                }
+                            },
+                            "classList": "",
+                            "dockLayout": {},
+                            "events": {
+                                "onClick": ""
+                            },
+                            "flexboxLayout": {
+                                "alignSelf": "stretch",
+                                "flexWrapBefore": false
+                            },
+                            "gridLayout": {},
+                            "id": "mobilebutton1",
+                            "navigateTo": {
+                                "allowBackNavigation": false,
+                                "module": "main",
+                                "parameter": "",
+                                "view": "appointments"
+                            },
+                            "platform": "mobile",
+                            "schemaVersion": "1.0",
+                            "text": "Appointments",
+                            "type": "mobile-button",
+                            "uniqueID": "f670a765-f69a-48dd-a50c-00d3b7b7037d"
+                        }
+                    ],
+                    "classList": "",
+                    "dockLayout": {},
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {},
+                    "id": "mobilestacklayout0",
+                    "orientation": "Vertical",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "type": "mobile-stack-layout",
+                    "uniqueID": "e90244d2-53d5-47b5-9022-0891bd32ed30"
+                }
+            ],
+            "classList": "",
+            "dockLayout": {},
+            "flexboxLayout": {
+                "alignSelf": "stretch",
+                "flexWrapBefore": false
+            },
+            "gridLayout": {
+                "col": null,
+                "colSpan": null,
+                "row": null,
+                "rowSpan": null
+            },
+            "id": "mobilescrollview0",
+            "orientation": "Vertical",
+            "platform": "mobile",
+            "schemaVersion": "1.0",
+            "type": "mobile-scroll-view",
+            "uniqueID": "457a93bb-5c42-44a4-a0be-7748d3b7bfa6"
+        }
+    ],
+    "dataSources": [],
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "showEventHandler": "onShow"
+    },
+    "hidden": false,
+    "name": "home",
+    "platform": "mobile",
+    "schemaVersion": "1.0",
+    "swipeLeft": {
+        "allowBackNavigation": true
+    },
+    "swipeRight": true,
+    "type": "view",
+    "uniqueID": "6ca13f06-921f-4ad8-b5a4-5589c3dfda9f",
+    "viewType": "mobile-blank"
+}

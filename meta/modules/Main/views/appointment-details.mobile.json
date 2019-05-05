@@ -1,0 +1,162 @@
+{
+    "actionBar": true,
+    "actionBarTitle": "",
+    "annotations": {
+        "dataSources": {
+            "name": "dataSourceName"
+        }
+    },
+    "authorization": {
+        "allowedRoles": []
+    },
+    "children": [
+        {
+            "absoluteLayout": {},
+            "appearanceStyles": {
+                "backgroundColor": null,
+                "color": null
+            },
+            "boxStyles": {
+                "margin": "",
+                "padding": "",
+                "size": {
+                    "height": "",
+                    "width": ""
+                }
+            },
+            "children": [
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {},
+                    "id": "mobilelabel0",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "text": "Date: {{$data.appointment?.date}} ",
+                    "textWrap": true,
+                    "type": "mobile-label",
+                    "uniqueID": "b97bc5a3-0ea9-425c-a3ef-4a1e4b9dfd06"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {},
+                    "id": "mobilelabel1",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "text": "Time: {{$data.appointment?.time}} ",
+                    "textWrap": true,
+                    "type": "mobile-label",
+                    "uniqueID": "86d541d7-b4ca-4eba-9a14-a56465c042b7"
+                },
+                {
+                    "absoluteLayout": {},
+                    "appearanceStyles": {
+                        "backgroundColor": null,
+                        "color": null
+                    },
+                    "boxStyles": {
+                        "margin": "",
+                        "padding": "",
+                        "size": {
+                            "height": "",
+                            "width": ""
+                        }
+                    },
+                    "classList": "",
+                    "dockLayout": {},
+                    "flexboxLayout": {
+                        "alignSelf": "stretch",
+                        "flexWrapBefore": false
+                    },
+                    "gridLayout": {},
+                    "id": "mobilelabel2",
+                    "platform": "mobile",
+                    "schemaVersion": "1.0",
+                    "text": "Status: {{$data.appointment?.approved}} ",
+                    "textWrap": true,
+                    "type": "mobile-label",
+                    "uniqueID": "c4c3c020-661a-4b2f-a0bb-f30016414fe4"
+                }
+            ],
+            "classList": "",
+            "dockLayout": {},
+            "flexboxLayout": {
+                "alignSelf": "stretch",
+                "flexWrapBefore": false
+            },
+            "gridLayout": {},
+            "id": "mobilestacklayout0",
+            "orientation": "Vertical",
+            "platform": "mobile",
+            "schemaVersion": "1.0",
+            "type": "mobile-stack-layout",
+            "uniqueID": "466932c5-656d-4bb9-b904-d2cf38096b90"
+        }
+    ],
+    "dataSources": [
+        {
+            "batch": true,
+            "dataProviderName": "DefaultDataProvider",
+            "dataSourceName": "appointments",
+            "dataSourceType": "entity",
+            "filterDataSource": false,
+            "foreignKeyProperty": "",
+            "name": "appointment",
+            "pageSize": 20,
+            "primaryKeyDocumentDataSource": "",
+            "primaryKeyProperty": "",
+            "uniqueID": "34008684-f3c6-40ca-a03d-7b427ed53d09"
+        }
+    ],
+    "events": {
+        "hideEventHandler": "onHide",
+        "initEventHandler": "onInit",
+        "showEventHandler": "onShow"
+    },
+    "hidden": false,
+    "name": "appointment-details",
+    "platform": "mobile",
+    "schemaVersion": "1.0",
+    "swipeLeft": {
+        "allowBackNavigation": true
+    },
+    "swipeRight": true,
+    "type": "view",
+    "uniqueID": "0e5bdc78-16cf-4fcf-b51e-a86c5c8b102c",
+    "viewType": "mobile-blank"
+}
