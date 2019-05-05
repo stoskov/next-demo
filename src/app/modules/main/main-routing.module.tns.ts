@@ -13,8 +13,9 @@ import { Routes } from '@angular/router';
 import { NativeScriptRouterModule } from 'nativescript-angular/router';
 import { AccountDetailsViewComponent } from '@src/app/modules/main/account-details/account-details.component';
 import { AccountsViewComponent } from '@src/app/modules/main/accounts/accounts.component';
-import { AppointmentDetailsViewComponent } from '@src/app/modules/main/appointment-details/appointment-details.component';
 import { AppointmentsViewComponent } from '@src/app/modules/main/appointments/appointments.component';
+import { NewAppointmentDateViewComponent } from '@src/app/modules/main/new-appointment-date/new-appointment-date.component';
+import { NewAppointmentTopicViewComponent } from '@src/app/modules/main/new-appointment-topic/new-appointment-topic.component';
 import { NewAppointmentViewComponent } from '@src/app/modules/main/new-appointment/new-appointment.component';
 import { NewTransactionViewComponent } from '@src/app/modules/main/new-transaction/new-transaction.component';
 import { AuthenticationGuardService } from '@src/app/core/auth/authentication-guard.service';
@@ -28,9 +29,14 @@ const routes: Routes = [
         component: NewTransactionViewComponent
     },
     {
-        path: 'appointment-details/:id',
+        path: 'new-appointment-topic/:id',
         canActivate: [AuthenticationGuardService],
-        component: AppointmentDetailsViewComponent
+        component: NewAppointmentTopicViewComponent
+    },
+    {
+        path: 'new-appointment-date/:id',
+        canActivate: [AuthenticationGuardService],
+        component: NewAppointmentDateViewComponent
     },
     {
         path: 'account-details/:id',
@@ -48,14 +54,19 @@ const routes: Routes = [
         component: AccountsViewComponent
     },
     {
-        path: 'appointment-details',
-        canActivate: [AuthenticationGuardService],
-        component: AppointmentDetailsViewComponent
-    },
-    {
         path: 'appointments',
         canActivate: [AuthenticationGuardService],
         component: AppointmentsViewComponent
+    },
+    {
+        path: 'new-appointment-date',
+        canActivate: [AuthenticationGuardService],
+        component: NewAppointmentDateViewComponent
+    },
+    {
+        path: 'new-appointment-topic',
+        canActivate: [AuthenticationGuardService],
+        component: NewAppointmentTopicViewComponent
     },
     {
         path: 'new-appointment',

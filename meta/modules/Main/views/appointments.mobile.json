@@ -274,6 +274,7 @@
     },
     "hidden": false,
     "name": "appointments",
+    "order": 3,
     "platform": "mobile",
     "schemaVersion": "1.0",
     "swipeLeft": {

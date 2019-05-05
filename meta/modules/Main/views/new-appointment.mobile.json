@@ -18,6 +18,7 @@
     },
     "hidden": false,
     "name": "new-appointment",
+    "order": 4,
     "platform": "mobile",
     "schemaVersion": "1.0",
     "swipeLeft": {

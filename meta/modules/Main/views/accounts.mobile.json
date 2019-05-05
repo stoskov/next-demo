@@ -65,6 +65,7 @@
     },
     "hidden": false,
     "name": "accounts",
+    "order": 0,
     "platform": "mobile",
     "schemaVersion": "1.0",
     "swipeLeft": {

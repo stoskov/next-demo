@@ -6,10 +6,17 @@
 // Changes to this file may cause undesired behavior and will be lost
 // the next time the code regenerates.
 //
-// You can write your custom code in the appointment-details.component.tns.ts file instead.
+// You can write your custom code in the new-appointment-date.component.tns.ts file instead.
 // Find more information on https://devcenter.kinvey.com/guides/studio-extension-points.
 //-------------------------------------------------------------------------
-import { Component, Injector } from '@angular/core';
+import { Component, Injector, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup } from '@angular/forms';
+import {
+    KSFormComponent,
+    FormControlOptions,
+    getDefaultValidationMessages,
+    getDefaultControlOptions
+} from '@src/app/shared/components/mobile-form/form.component';
 import { Page } from 'tns-core-modules/ui/page';
 import { GestureTypes, SwipeDirection, SwipeGestureEventData } from 'tns-core-modules/ui/gestures';
 import { ActivatedRoute } from '@angular/router';
@@ -24,11 +31,21 @@ import { Appointment } from '@src/app/data/appointment.model';
 import { getAppointmentConfig } from '@src/app/data/appointment.config';
 
 @Component({
-    templateUrl: './appointment-details.component.html',
-    styleUrls: ['./appointment-details.component.css']
+    templateUrl: './new-appointment-date.component.html',
+    styleUrls: ['./new-appointment-date.component.css']
 })
-export class AppointmentDetailsViewBaseComponent {
-    public $config = {};
+export class NewAppointmentDateViewBaseComponent implements OnInit {
+    public $config = {
+        mobileform0: {
+            validationMessages: getDefaultValidationMessages(),
+            groups: {
+                appointmentFormGroup: {
+                    date: getDefaultControlOptions(),
+                    time: getDefaultControlOptions()
+                }
+            }
+        }
+    };
 
     public $appointmentService: EntityDataService<Appointment>;
 
@@ -38,8 +55,13 @@ export class AppointmentDetailsViewBaseComponent {
     protected $serviceFactory: DataServiceFactory;
     protected $page: Page;
 
+    public $formBuilder: FormBuilder;
+    public $appointmentFormGroup: FormGroup;
+
     constructor(public injector: Injector) {
         this.$page = injector.get(Page);
+
+        this.$formBuilder = injector.get(FormBuilder);
         this.$activatedRoute = injector.get(ActivatedRoute);
         this.$navigationService = injector.get(NavigationService);
         this.$utilsService = injector.get(UtilsService);
@@ -52,6 +74,10 @@ export class AppointmentDetailsViewBaseComponent {
         this.initDataServices(dataConfig);
 
         this.$page.enableSwipeBackNavigation = false;
+    }
+
+    ngOnInit() {
+        this.initFormGroups();
     }
 
     onViewLoaded({ object: view }) {
@@ -73,5 +99,17 @@ export class AppointmentDetailsViewBaseComponent {
     protected initDataServices(dataConfig: { [key: string]: KinveyServiceConfig }) {
         this.$appointmentService = this.$serviceFactory.entity<Appointment>({ config: dataConfig.appointment, typeName: Appointment.name });
         this.$appointmentService.dataState.onChanges(this.$appointmentService.mapParams(this.$activatedRoute.queryParams));
+    }
+
+    protected initFormGroups() {
+        let date: FormControlOptions;
+        let time: FormControlOptions;
+
+        ({ date, time } = this.$config.mobileform0.groups.appointmentFormGroup);
+
+        this.$appointmentFormGroup = this.$formBuilder.group({
+            date: [date.initial, date],
+            time: [time.initial, time]
+        });
     }
 }

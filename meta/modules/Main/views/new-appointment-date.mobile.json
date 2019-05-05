@@ -56,58 +56,23 @@
                                 }
                             },
                             "classList": "",
+                            "date": "",
                             "dockLayout": {},
+                            "documentDataSource": "appointment",
                             "flexboxLayout": {
                                 "alignSelf": "stretch",
                                 "flexWrapBefore": false
                             },
-                            "gridLayout": {
-                                "col": null,
-                                "colSpan": null,
-                                "row": null,
-                                "rowSpan": null
-                            },
-                            "id": "mobilelabel0",
-                            "platform": "mobile",
-                            "schemaVersion": "1.0",
-                            "text": "Type",
-                            "textWrap": true,
-                            "type": "mobile-label",
-                            "uniqueID": "ab79ca0d-078e-4317-bd5d-6ee0be4aaeff"
-                        },
-                        {
-                            "absoluteLayout": {},
-                            "appearanceStyles": {
-                                "backgroundColor": null,
-                                "color": null
-                            },
-                            "autocorrect": false,
-                            "boxStyles": {
-                                "margin": "",
-                                "padding": "",
-                                "size": {
-                                    "height": "",
-                                    "width": ""
-                                }
-                            },
-                            "classList": "",
-                            "dockLayout": {},
-                            "documentDataSource": "transaction",
-                            "flexboxLayout": {
-                                "alignSelf": "stretch",
-                                "flexWrapBefore": false
-                            },
-                            "formControlName": "type",
+                            "formControlName": "date",
                             "gridLayout": {},
-                            "hint": "",
-                            "id": "mobiletextfield0",
-                            "keyboardType": "",
+                            "id": "mobiledatepicker0",
+                            "pickerCancelText": "Cancel",
+                            "pickerOkText": "Ok",
+                            "pickerTitle": "",
                             "platform": "mobile",
                             "schemaVersion": "1.0",
-                            "secure": false,
-                            "text": "",
-                            "type": "mobile-text-field",
-                            "uniqueID": "28aa9916-5721-4a5e-b425-5da39f9f9330"
+                            "type": "mobile-date-picker",
+                            "uniqueID": "92da611c-2f85-4498-a200-5f417886b098"
                         },
                         {
                             "absoluteLayout": {},
@@ -125,125 +90,22 @@
                             },
                             "classList": "",
                             "dockLayout": {},
+                            "documentDataSource": "appointment",
                             "flexboxLayout": {
                                 "alignSelf": "stretch",
                                 "flexWrapBefore": false
                             },
-                            "gridLayout": {
-                                "col": null,
-                                "colSpan": null,
-                                "row": null,
-                                "rowSpan": null
-                            },
-                            "id": "mobilelabel1",
-                            "platform": "mobile",
-                            "schemaVersion": "1.0",
-                            "text": "Amount",
-                            "textWrap": true,
-                            "type": "mobile-label",
-                            "uniqueID": "7d546f3b-c6f0-43ca-b4ef-bfd4e35519bf"
-                        },
-                        {
-                            "absoluteLayout": {},
-                            "appearanceStyles": {
-                                "backgroundColor": null,
-                                "color": null
-                            },
-                            "autocorrect": false,
-                            "boxStyles": {
-                                "margin": "",
-                                "padding": "",
-                                "size": {
-                                    "height": "",
-                                    "width": ""
-                                }
-                            },
-                            "classList": "",
-                            "dockLayout": {},
-                            "documentDataSource": "transaction",
-                            "flexboxLayout": {
-                                "alignSelf": "stretch",
-                                "flexWrapBefore": false
-                            },
-                            "formControlName": "amount",
-                            "gridLayout": {
-                                "col": null,
-                                "colSpan": null,
-                                "row": null,
-                                "rowSpan": null
-                            },
-                            "hint": "",
-                            "id": "mobiletextfield1",
-                            "keyboardType": "number",
-                            "platform": "mobile",
-                            "schemaVersion": "1.0",
-                            "secure": false,
-                            "text": "",
-                            "type": "mobile-text-field",
-                            "uniqueID": "8209e932-83b5-4537-a637-3be50785f665"
-                        },
-                        {
-                            "absoluteLayout": {},
-                            "appearanceStyles": {
-                                "backgroundColor": null,
-                                "color": null
-                            },
-                            "boxStyles": {
-                                "margin": "",
-                                "padding": "",
-                                "size": {
-                                    "height": "",
-                                    "width": ""
-                                }
-                            },
-                            "classList": "",
-                            "dockLayout": {},
-                            "flexboxLayout": {
-                                "alignSelf": "stretch",
-                                "flexWrapBefore": false
-                            },
+                            "formControlName": "time",
                             "gridLayout": {},
-                            "id": "mobilelabel2",
+                            "id": "mobiletimepicker0",
+                            "pickerCancelText": "Cancel",
+                            "pickerOkText": "Ok",
+                            "pickerTitle": "",
                             "platform": "mobile",
                             "schemaVersion": "1.0",
-                            "text": "AccountId",
-                            "textWrap": true,
-                            "type": "mobile-label",
-                            "uniqueID": "5d8af55e-c63e-47f6-889f-b01c3f5e6df1"
-                        },
-                        {
-                            "absoluteLayout": {},
-                            "appearanceStyles": {
-                                "backgroundColor": null,
-                                "color": null
-                            },
-                            "autocorrect": false,
-                            "boxStyles": {
-                                "margin": "",
-                                "padding": "",
-                                "size": {
-                                    "height": "",
-                                    "width": ""
-                                }
-                            },
-                            "classList": "",
-                            "dockLayout": {},
-                            "documentDataSource": "transaction",
-                            "flexboxLayout": {
-                                "alignSelf": "stretch",
-                                "flexWrapBefore": false
-                            },
-                            "formControlName": "accountId",
-                            "gridLayout": {},
-                            "hint": "",
-                            "id": "mobiletextfield2",
-                            "keyboardType": "",
-                            "platform": "mobile",
-                            "schemaVersion": "1.0",
-                            "secure": false,
-                            "text": "",
-                            "type": "mobile-text-field",
-                            "uniqueID": "3f9f2955-62a0-4840-a416-4110c490ff59"
+                            "time": "",
+                            "type": "mobile-time-picker",
+                            "uniqueID": "01cbfd74-1a05-4d8a-a877-1f5c6c74e235"
                         },
                         {
                             "absoluteLayout": {},
@@ -283,18 +145,13 @@
                                         "flexWrapBefore": false
                                     },
                                     "formControlName": "",
-                                    "gridLayout": {
-                                        "col": null,
-                                        "colSpan": null,
-                                        "row": null,
-                                        "rowSpan": null
-                                    },
+                                    "gridLayout": {},
                                     "id": "mobileformbutton0",
                                     "platform": "mobile",
                                     "schemaVersion": "1.0",
                                     "text": "Submit",
                                     "type": "mobile-form-button",
-                                    "uniqueID": "402778c6-89f7-429b-bf17-810c932b6f67"
+                                    "uniqueID": "19498433-b240-4330-9f25-60851776f8d7"
                                 },
                                 {
                                     "absoluteLayout": {},
@@ -319,18 +176,13 @@
                                         "flexWrapBefore": false
                                     },
                                     "formControlName": "",
-                                    "gridLayout": {
-                                        "col": null,
-                                        "colSpan": null,
-                                        "row": null,
-                                        "rowSpan": null
-                                    },
+                                    "gridLayout": {},
                                     "id": "mobileformbutton1",
                                     "platform": "mobile",
                                     "schemaVersion": "1.0",
                                     "text": "Cancel",
                                     "type": "mobile-form-button",
-                                    "uniqueID": "3663890d-5594-4474-908a-ce0177a5e69d"
+                                    "uniqueID": "2b6d7ea3-1871-45d6-a74d-a7d6a7fc7745"
                                 }
                             ],
                             "classList": "form__footer",
@@ -345,7 +197,7 @@
                             "platform": "mobile",
                             "schemaVersion": "1.0",
                             "type": "mobile-stack-layout",
-                            "uniqueID": "38907da5-6ef0-4dfa-bc9c-6767db42f2f6"
+                            "uniqueID": "9d93eb39-1833-49ab-9c5e-ff957fe45f11"
                         }
                     ],
                     "classList": "form",
@@ -360,14 +212,14 @@
                     "platform": "mobile",
                     "schemaVersion": "1.0",
                     "type": "mobile-stack-layout",
-                    "uniqueID": "5a9b6edb-6c94-4ada-9e4b-bcfdc12895c8"
+                    "uniqueID": "e8824d0a-d359-438c-95b5-7251b8d81a8d"
                 }
             ],
             "classList": "",
             "customCancel": {},
             "customSubmit": {},
             "dockLayout": {},
-            "documentDataSource": "transaction",
+            "documentDataSource": "appointment",
             "flexboxLayout": {
                 "alignSelf": "stretch",
                 "flexWrapBefore": false
@@ -379,15 +231,16 @@
             "submitEventsAfter": "backward",
             "submitEventsAfterCustom": {},
             "submitEventsAfterForward": {
-                "module": "",
-                "view": ""
+                "allowBackNavigation": false,
+                "module": "main",
+                "view": "appointments"
             },
             "submitEventsBefore": "default",
             "submitEventsBeforeCustom": {},
             "submitEventsSave": "default",
             "submitEventsSaveCustom": {},
             "type": "mobile-form",
-            "uniqueID": "742cc553-2f63-4feb-9f5c-0cfced431491",
+            "uniqueID": "c2824348-d695-4316-aca4-d8de467b04a0",
             "useDefaultCancel": true,
             "useDefaultSubmit": true
         }
@@ -396,15 +249,15 @@
         {
             "batch": true,
             "dataProviderName": "DefaultDataProvider",
-            "dataSourceName": "transactions",
+            "dataSourceName": "appointments",
             "dataSourceType": "entity",
             "filterDataSource": false,
             "foreignKeyProperty": "",
-            "name": "transaction",
+            "name": "appointment",
             "pageSize": 20,
             "primaryKeyDocumentDataSource": "",
             "primaryKeyProperty": "",
-            "uniqueID": "516e4437-40e6-4317-a152-3c2169b19bd2"
+            "uniqueID": "c7bb2577-6ad2-44c5-9308-623d1aceb29f"
         }
     ],
     "events": {
@@ -413,8 +266,8 @@
         "showEventHandler": "onShow"
     },
     "hidden": false,
-    "name": "new-transaction",
-    "order": 2,
+    "name": "new-appointment-date",
+    "order": 6,
     "platform": "mobile",
     "schemaVersion": "1.0",
     "swipeLeft": {
@@ -422,6 +275,6 @@
     },
     "swipeRight": true,
     "type": "view",
-    "uniqueID": "20a4efac-22dc-4616-b91f-0da555a72924",
+    "uniqueID": "012cd309-9537-4ac8-ad8c-31f5048a9d34",
     "viewType": "mobile-blank"
 }

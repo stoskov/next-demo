@@ -78,11 +78,14 @@
         "accounts": {
           "label": "accounts"
         },
-        "appointment-details": {
-          "label": "appointment-details"
-        },
         "appointments": {
           "label": "appointments"
+        },
+        "new-appointment-date": {
+          "label": "new-appointment-date"
+        },
+        "new-appointment-topic": {
+          "label": "new-appointment-topic"
         },
         "new-appointment": {
           "label": "new-appointment"

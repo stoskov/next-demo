@@ -280,6 +280,7 @@
     },
     "hidden": false,
     "name": "account-details",
+    "order": 1,
     "platform": "mobile",
     "schemaVersion": "1.0",
     "swipeLeft": {

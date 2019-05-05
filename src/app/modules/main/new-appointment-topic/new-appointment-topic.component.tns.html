@@ -15,9 +15,4 @@
 </ActionBar>
 
 <ng-container *ngIf="{ appointment: $appointmentService.dataChanges | async } as $data">
-    <StackLayout orientation="Vertical" class="custom-page" (loaded)="onViewLoaded($event)">
-        <Label text="Date: {{$data.appointment?.date}} " textWrap="true"></Label>
-        <Label text="Time: {{$data.appointment?.time}} " textWrap="true"></Label>
-        <Label text="Status: {{$data.appointment?.approved}} " textWrap="true"></Label>
-    </StackLayout>
 </ng-container>
