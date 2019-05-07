@@ -10,7 +10,21 @@
         "allowedRoles": []
     },
     "children": [],
-    "dataSources": [],
+    "dataSources": [
+        {
+            "batch": true,
+            "dataProviderName": "DefaultDataProvider",
+            "dataSourceName": "locations",
+            "dataSourceType": "collection",
+            "filterDataSource": false,
+            "foreignKeyProperty": "",
+            "name": "locations",
+            "pageSize": 20,
+            "primaryKeyDocumentDataSource": "",
+            "primaryKeyProperty": "",
+            "uniqueID": "13e10d6e-d7ff-4b86-b211-85ec6ed78aa3"
+        }
+    ],
     "events": {
         "hideEventHandler": "onHide",
         "initEventHandler": "onInit",

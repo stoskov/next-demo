@@ -19,6 +19,10 @@ import { NavigationService } from '@src/app/core/services/navigation.service';
 import { UtilsService } from '@src/app/core/services/utils.service';
 import { DataServiceFactory } from '@src/app/core/data/data-service.factory';
 import { KinveyServiceConfig } from '@src/app/core/data/kinvey-service-config';
+import { CollectionDataService } from '@src/app/core/data/collection-data.service';
+import { CollectionState } from '@src/app/core/data/state/collection-state.interface';
+import { Location } from '@src/app/data/location.model';
+import { getLocationConfig } from '@src/app/data/location.config';
 
 @Component({
     templateUrl: './new-appointment.component.html',
@@ -26,6 +30,8 @@ import { KinveyServiceConfig } from '@src/app/core/data/kinvey-service-config';
 })
 export class NewAppointmentViewBaseComponent {
     public $config = {};
+
+    public $locationsService: CollectionDataService<Location>;
 
     protected $activatedRoute: ActivatedRoute;
     protected $navigationService: NavigationService;
@@ -40,7 +46,9 @@ export class NewAppointmentViewBaseComponent {
         this.$utilsService = injector.get(UtilsService);
         this.$serviceFactory = injector.get(DataServiceFactory);
 
-        const dataConfig = {};
+        const dataConfig = {
+            locations: getLocationConfig()
+        };
 
         this.initDataServices(dataConfig);
 
@@ -63,5 +71,14 @@ export class NewAppointmentViewBaseComponent {
         view.swipeBound = true;
     }
 
-    protected initDataServices(dataConfig: { [key: string]: KinveyServiceConfig }) {}
+    protected initDataServices(dataConfig: { [key: string]: KinveyServiceConfig }) {
+        this.$locationsService = this.$serviceFactory.collection<Location>({
+            config: dataConfig.locations,
+            initialState: {
+                skip: 0,
+                take: 20
+            },
+            typeName: Location.name
+        });
+    }
 }
